@@ -3,104 +3,116 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bylo Coffee Roasters | Small-batch beans, big flavor</title>
-    <meta name="description" content="Artisan specialty coffee roastery dedicated to the pursuit of the perfect roast. Small-batch beans delivered to your door.">
+    <title>Bylo Coffee Roasters | Small-batch Specialty Coffee</title>
+    <meta name="description" content="Artisan small-batch coffee roastery delivering premium beans and big flavor from the heart of the craft.">
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-
-    <header id="main-header">
-        <a href="#" class="logo">Bylo.</a>
-        <a href="#contact" class="cta-button">Order Today</a>
+    <header id="header">
+        <div class="container">
+            <nav class="nav-content">
+                <a href="#" class="logo">BYLO</a>
+                <a href="mailto:bylobtw@gmail.com" class="cta-link">Get in touch</a>
+            </nav>
+        </div>
     </header>
 
     <main>
         <section class="hero">
-            <div class="hero-content">
-                <span class="reveal">Roasted in small batches</span>
-                <h1 class="reveal">Small-batch beans, <br>big flavor.</h1>
-                <p class="reveal">Exceptional coffee doesn't happen by accident. We meticulously source and roast in tiny lots to reveal the soul of every bean.</p>
-                <div class="reveal">
-                    <a href="#beans" class="cta-button">Explore our Roasts</a>
-                </div>
-            </div>
-        </section>
-
-        <section class="about" id="about">
-            <div class="about-image reveal"></div>
-            <div class="about-text">
-                <span class="section-label reveal">The Craft</span>
-                <h2 class="reveal">Dedicated to the <br>Pursuit of Better.</h2>
-                <p class="reveal">At Bylo Coffee Roasters, we believe coffee is more than just a morning ritual—it's a sensory experience. Our process begins with direct relationships with small-scale farmers who share our obsession with quality and sustainability.</p>
-                <br>
-                <p class="reveal">Every batch is sample-roasted and cupped until we find the precise profile that highlights the origin's unique character. No shortcuts, just pure expression.</p>
-            </div>
-        </section>
-
-        <section class="beans" id="beans">
-            <span class="section-label reveal">Current Roasts</span>
-            <h2 class="reveal" style="font-size: 3.5rem; margin-bottom: 40px;">Selected Origins</h2>
-            <div class="beans-grid">
-                <div class="bean-card reveal">
-                    <span class="bean-origin">Guatemala • Huehuetenango</span>
-                    <h3 class="bean-type">The Dawn Walker</h3>
-                    <p>A balanced, smooth roast with a velvety body.</p>
-                    <p class="bean-notes">Notes: Milk Chocolate, Toasted Almond, Stone Fruit</p>
-                </div>
-                <div class="bean-card reveal">
-                    <span class="bean-origin">Ethiopia • Yirgacheffe</span>
-                    <h3 class="bean-type">Sun-Soaked Soul</h3>
-                    <p>Light, bright, and floral. An heirloom variety that sings in the cup.</p>
-                    <p class="bean-notes">Notes: Jasmine, Bergamot, Wild Honey</p>
-                </div>
-                <div class="bean-card reveal">
-                    <span class="bean-origin">Sumatra • Aceh</span>
-                    <h3 class="bean-type">Midnight Earth</h3>
-                    <p>Bold, dark, and complex. For those who love depth and intensity.</p>
-                    <p class="bean-notes">Notes: Cedar, Molasses, Tobacco Leaf</p>
-                </div>
-            </div>
-        </section>
-
-        <section class="subscribe reveal">
             <div class="container">
-                <h2>Join the Roast List</h2>
-                <p>Sign up to get notified about our limited release micro-lots and quarterly subscriptions.</p>
-                <form class="sub-form" onsubmit="event.preventDefault(); alert('Extraction started! Thanks for joining.');">
-                    <input type="email" placeholder="Email Address" required>
-                    <button type="submit">Subscribe</button>
-                </form>
-            </div>
-        </section>
-
-        <section class="contact-section" id="contact">
-            <div class="contact-info">
-                <span class="section-label reveal">Get in Touch</span>
-                <h2 class="reveal">Visit our <br>Showroom.</h2>
-                <div class="contact-details">
-                    <div class="contact-item reveal">
-                        <span>Email Us</span>
-                        <a href="mailto:bylobtw@gmail.com">bylobtw@gmail.com</a>
+                <div class="hero-grid">
+                    <div class="hero-content reveal">
+                        <span class="section-label">Est. 2024</span>
+                        <h1>Small-batch beans, <br><em>big flavor.</em></h1>
+                        <p>We source the finest seasonal cherries and roast them in limited quantities to highlight the unique terroir of every origin. Truly premium, uncompromisingly artisan.</p>
+                        <a href="#beans" class="cta-button">Explore the Roast</a>
                     </div>
-                    <div class="contact-item reveal">
-                        <span>Headquarters</span>
-                        <p>Artisan District, Roastery Lane <br>Unit 402, Bean Valley</p>
-                    </div>
-                    <div class="contact-item reveal">
-                        <span>Brewing Hours</span>
-                        <p>Mon — Fri: 8am - 4pm<br>Sat: 9am - 2pm</p>
+                    <div class="hero-image reveal" style="transition-delay: 0.2s;">
+                        <div class="img-placeholder" style="background-image: url('https://images.unsplash.com/photo-1559056199-641a0ac8b55e?auto=format&fit=crop&q=80&w=800'); background-size: cover; background-position: center;" role="img" aria-label="Coffee beans being roasted"></div>
                     </div>
                 </div>
             </div>
-            <div class="contact-visual reveal" style="background: url('https://images.unsplash.com/photo-1442975631115-c4f7b0f28abb?auto=format&fit=crop&q=80&w=2000') center/cover; min-height: 400px; border-radius: 4px;"></div>
+        </section>
+
+        <section class="about section-padding" id="about">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="reveal">
+                        <span class="section-label">The Philosophy</span>
+                        <h2>Honoring the Craft</h2>
+                    </div>
+                    <div class="about-text reveal" style="transition-delay: 0.1s;">
+                        <p>At Bylo Coffee Roasters, we believe coffee is more than a morning ritual—it's a sensory journey. Our roasting process is a delicate balance of science and intuition, ensuring every bean reaches its peak potential.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="beans section-padding" id="beans">
+            <div class="container">
+                <span class="section-label">Current Roast</span>
+                <div class="beans-grid">
+                    <div class="bean-card reveal">
+                        <span class="bean-origin">Ethiopia • Yirgacheffe</span>
+                        <h3>Sidamo Reserve</h3>
+                        <p class="bean-notes">Notes of jasmine, lemon zest, and wild honey. Light, floral, and bright.</p>
+                    </div>
+                    <div class="bean-card reveal" style="transition-delay: 0.1s;">
+                        <span class="bean-origin">Colombia • Huila</span>
+                        <h3>Mountain Velvet</h3>
+                        <p class="bean-notes">Notes of dark chocolate, caramel, and cherry. Rich, balanced, and smooth.</p>
+                    </div>
+                    <div class="bean-card reveal" style="transition-delay: 0.2s;">
+                        <span class="bean-origin">Sumatra • Gayo</span>
+                        <h3>Earthbound Heirloom</h3>
+                        <p class="bean-notes">Notes of cedar, spice, and molasses. Bold, full-bodied, and complex.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="subscribe section-padding">
+            <div class="container">
+                <div class="subscribe-box reveal">
+                    <span class="section-label" style="color: var(--white); opacity: 0.6;">Freshness to your door</span>
+                    <h2>The Monthly Drop</h2>
+                    <p>Join our exclusive subscription list to receive early access to limited micro-lots and roasting notes directly from our head roaster.</p>
+                    <form class="email-form" onsubmit="event.preventDefault(); alert('Roaster thank you! We\'ll be in touch.');">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit">Subscribe</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact section-padding" id="contact">
+            <div class="container">
+                <div class="contact-grid">
+                    <div class="reveal">
+                        <span class="section-label">Connect</span>
+                        <h2>Let's talk coffee</h2>
+                    </div>
+                    <div class="contact-info reveal" style="transition-delay: 0.1s;">
+                        <div>
+                            <span>Email Us</span>
+                            <a href="mailto:bylobtw@gmail.com">bylobtw@gmail.com</a>
+                        </div>
+                        <div>
+                            <span>Visit the Lab</span>
+                            <p>Artisan Row, Roastery District<br>Open Mon-Fri: 8am — 4pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 
     <footer>
-        <p>&copy; 2024 Bylo Coffee Roasters.</p>
-        <p>Roasted with intention.</p>
+        <div class="container">
+            <div class="footer-logo">BYLO COFFEE ROASTERS</div>
+            <p class="copyright">&copy; 2024 Bylo Coffee Roasters. Ethically Sourced. Carefully Roasted.</p>
+        </div>
     </footer>
-
 </body>
 </html>
